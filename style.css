@@ -1,0 +1,44 @@
+.grid-container {
+    display: grid;
+  }
+.flex-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.flex-head h1{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    color: gray;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+ li{
+     margin: 1em;
+ }
+
+ .flex1{
+    display: flex;
+}
+.item1{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.item2{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+img{
+    flex-grow: 1;
+}
+
+ .hrcustom{
+     color: red;
+ }
