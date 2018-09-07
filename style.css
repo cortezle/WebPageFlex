@@ -32,13 +32,44 @@ ul{
 }
 
 .item2{
+    display: flex;
+    flex-direction: column;
     flex-basis: 0;
     flex-grow: 1;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%; 
 }
 img{
-    flex-grow: 1;
+    height: 80%;
+    width: 80%;
+    padding: 1em;
+    border-radius: 3em;
+    border-color: black;
+
 }
 
  .hrcustom{
-     color: red;
+     color: #f56a6a;
  }
+
+.buttoncustom{
+    background-color: white;
+    color: #f56a6a;
+    border: 2px solid #f56a6a;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 10px 70px;
+    width: 40%;
+    text-decoration: none;
+}
+
+.parrafo{
+    color: #7f888f;
+}
+
+a:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+    visibility: visible;
+    color: black;
+}
